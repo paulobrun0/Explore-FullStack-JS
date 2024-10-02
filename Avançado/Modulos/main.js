@@ -1,4 +1,4 @@
-import { sumTwoNumbers, multiplyTwoNumbers } from "./calc.js";
+import { sum as s, multiply as mult } from "./calc.js";
 
-console.log(sumTwoNumbers(1, 2));
-console.log(multiplyTwoNumbers(3, 4));
+console.log(s(1, 2));
+console.log(mult(3, 4));

@@ -6,4 +6,4 @@ function multiply(a, b) {
   return a * b;
 }
 
-export { sum as sumTwoNumbers, multiply as multiplyTwoNumbers };
+export { sum, multiply };
