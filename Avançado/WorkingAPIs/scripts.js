@@ -18,4 +18,26 @@ async function fetchProduct(id) {
 }
 
 // fetchProducts();
-fetchProduct(2);
+// fetchProduct(2);
+
+const productName = document.getElementById("name");
+const productPrice = document.getElementById("price");
+const form = document.querySelector("form");
+
+addEventListener("submit", async (e) => {
+  e.preventDefault();
+
+  await fetch("http://localhost:3333/products", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      id: new Date().getTime().toString(),
+      name: productName.value,
+      price: parseFloat(productPrice.value),
+    }),
+  });
+
+  await fetchProducts();
+});
