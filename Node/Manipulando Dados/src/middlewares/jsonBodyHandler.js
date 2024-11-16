@@ -6,7 +6,7 @@ export async function jsonBodyHandler(request, response) {
   }
 
   try {
-    request.body(JSON.parse(Buffer.concat(buffer).toString()));
+    request.body = JSON.parse(Buffer.concat(buffer).toString());
   } catch (error) {
     request.body = null;
   }
