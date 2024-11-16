@@ -1,0 +1,13 @@
+{
+  "name": "iniciando-com-nodejs",
+  "version": "1.0.0",
+  "description": "Meu primeiro projeto com Nodejs",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Paulo Bruno",
+  "license": "ISC"
+}
