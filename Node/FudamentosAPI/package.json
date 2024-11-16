@@ -1,0 +1,13 @@
+{
+  "name": "fudamentosapi",
+  "version": "1.0.0",
+  "description": "Minha primeira API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "Paulo Bruno",
+  "license": "ISC"
+}
