@@ -1,1 +1,1 @@
-{}
+{"tickets":[{"id":"b7d79a32-82b1-480d-8133-66ea95aecebb","equipment":"Computador","description":"Computador não liga.","user_name":"Paulo ","status":"open","created_at":"2024-11-17T20:18:18.298Z","updated_at":"2024-11-17T20:18:18.298Z"},{"id":"3cbcd656-a52b-4276-a23a-385b1f32129a","equipment":"Teclado","description":"Teclado não Funciona.","user_name":"Paulo ","status":"open","created_at":"2024-11-17T20:18:35.941Z","updated_at":"2024-11-17T20:18:35.941Z"}]}
