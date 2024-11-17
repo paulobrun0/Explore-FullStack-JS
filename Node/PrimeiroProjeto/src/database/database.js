@@ -6,7 +6,7 @@ export class Database {
   #database = {};
 
   constructor() {
-    fs.writeFile(DATABASE_PATH, "utf8")
+    fs.readFile(DATABASE_PATH, "utf8")
       .then((data) => {
         this.#database = JSON.parse(data);
       })
@@ -27,5 +27,10 @@ export class Database {
     }
 
     this.#persist();
+  }
+
+  select(table) {
+    let data = this.#database[table] ?? [];
+    return data;
   }
 }
