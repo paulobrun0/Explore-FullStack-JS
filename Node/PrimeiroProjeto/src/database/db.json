@@ -2,12 +2,12 @@
   "tickets": [
     {
       "id": "04c7aae2-18a0-4b3c-9176-f796276d1e8f",
-      "equipment": "Teclado",
-      "description": "Teclado não Funciona.",
+      "equipment": "Mouse",
+      "description": "Mouse não Funciona.",
       "user_name": "Paulo ",
       "status": "open",
       "created_at": "2024-11-17T20:31:55.710Z",
-      "updated_at": "2024-11-17T20:31:55.710Z"
+      "updated_at": "2024-11-17T22:38:52.593Z"
     },
     {
       "id": "16875b34-301b-468c-a4e2-a0e464af60c9",
