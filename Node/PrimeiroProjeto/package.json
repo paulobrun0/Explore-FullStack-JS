@@ -1,0 +1,13 @@
+{
+  "name": "TicketsGo",
+  "version": "1.0.0",
+  "description": "API de tickets para suporte",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch /src/server.js"
+  },
+  "keywords": [],
+  "author": "Paulo Bruno",
+  "license": "ISC"
+}
