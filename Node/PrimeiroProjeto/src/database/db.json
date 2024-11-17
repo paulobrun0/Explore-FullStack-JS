@@ -1,1 +1,31 @@
-{"tickets":[{"id":"04c7aae2-18a0-4b3c-9176-f796276d1e8f","equipment":"Teclado","description":"Teclado não Funciona.","user_name":"Paulo ","status":"open","created_at":"2024-11-17T20:31:55.710Z","updated_at":"2024-11-17T20:31:55.710Z"},{"id":"16875b34-301b-468c-a4e2-a0e464af60c9","equipment":"Computador","description":"Computador não liga.","user_name":"Paulo ","status":"open","created_at":"2024-11-17T20:32:06.145Z","updated_at":"2024-11-17T20:32:06.145Z"},{"id":"2a0f2923-af5b-4468-8d2d-5acf7d0e1eeb","equipment":"Computador","description":"Computador não liga.","user_name":"Paulo ","status":"open","created_at":"2024-11-17T20:56:42.322Z","updated_at":"2024-11-17T20:56:42.322Z"}]}
+{
+  "tickets": [
+    {
+      "id": "04c7aae2-18a0-4b3c-9176-f796276d1e8f",
+      "equipment": "Teclado",
+      "description": "Teclado não Funciona.",
+      "user_name": "Paulo ",
+      "status": "open",
+      "created_at": "2024-11-17T20:31:55.710Z",
+      "updated_at": "2024-11-17T20:31:55.710Z"
+    },
+    {
+      "id": "16875b34-301b-468c-a4e2-a0e464af60c9",
+      "equipment": "Computador",
+      "description": "Computador não liga.",
+      "user_name": "Paulo ",
+      "status": "closed",
+      "created_at": "2024-11-17T20:32:06.145Z",
+      "updated_at": "2024-11-17T20:32:06.145Z"
+    },
+    {
+      "id": "2a0f2923-af5b-4468-8d2d-5acf7d0e1eeb",
+      "equipment": "Computador",
+      "description": "Computador não liga.",
+      "user_name": "Paulo ",
+      "status": "open",
+      "created_at": "2024-11-17T20:56:42.322Z",
+      "updated_at": "2024-11-17T20:56:42.322Z"
+    }
+  ]
+}
