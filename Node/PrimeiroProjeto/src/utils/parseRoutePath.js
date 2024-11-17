@@ -1,10 +1,9 @@
 export function parseRoutePath(path) {
-  //Regex para identificar parâmetros dinâmicos :id
   const routeParametersRegex = /:([a-zA-Z]+)/g;
 
-  const params = path.replaceAll(routeParametersRegex, "(?<$1>[a-z0-9-_]+)");
+  const params = path.replace(routeParametersRegex, "(?<$1>[a-z0-9-_]+)");
 
-  const pathRegex = new RegExp(`^${params}(<?query>\\?(.*))?$`);
+  const pathRegex = new RegExp(`${params}(?<query>\\?(.*))?$`);
 
   return pathRegex;
 }
